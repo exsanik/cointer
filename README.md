@@ -34,7 +34,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Starts development server
 
 ToDo:
-// Add mobile version
-// Delete own categories
-// Change name and email details
-// Email for changing password
+1. Add mobile version
+2. Delete own categories
+3. Change name and email details
+4. Email for changing password
