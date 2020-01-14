@@ -1,0 +1,129 @@
+.settings-wrapper {
+  width: 60vw;
+  margin: 20px;
+  margin-left: 70px;
+  flex-grow: 5;
+}
+
+.settings-wrapper form {
+  margin-bottom: 20px;
+}
+
+.add-family-wrapper {
+  background-color: #5907d3;
+  height: 200px;
+  padding: 20px;
+  margin: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 7px;
+}
+
+.add-family-info {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding-left: 5px;
+  color: white;
+}
+
+.add-family-error {
+  color: coral;
+  font-size: 1.2rem;
+  margin-left: 60px;
+  padding-top: 1px;
+}
+
+.form__label.balance-lab,
+.form__label.acc-name-lab,
+.form__label.pin-fam-lab,
+.form__label.add-fam-lab {
+  color: white;
+}
+.form__group.field.acc-name-fil,
+.form__group.field.balance-fil,
+.form__group.field.add-fam-fil,
+.form__group.field.pin-fam-fil {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.pin-fam-inp,
+.add-fam-inp {
+  width: 400px;
+  color: white;
+}
+
+.acc-name-inp {
+  width: 260px;
+  color: white;
+}
+.balance-inp {
+  width: 250px;
+  color: white;
+  position: relative;
+}
+
+.balance-inp:focus ~ .balance-lab,
+.acc-name-inp:focus ~ .acc-name-lab,
+.pin-fam-inp:focus ~ .pin-fam-lab,
+.add-fam-inp:focus ~ .add-fam-lab {
+  color: white;
+}
+.balance-inp:focus,
+.acc-name-inp:focus,
+.pin-fam-inp:focus,
+.add-fam-inp:focus {
+  border-image: linear-gradient(to right, white, white);
+  border-image-slice: 1;
+}
+
+.pin-fam-lab {
+  width: 400px;
+}
+.acc-type-select {
+  position: relative;
+  top: -28px;
+  right: 16px;
+}
+
+.acc-type-select .css-2b097c-container {
+  width: 280px;
+}
+
+.acc-type-button {
+  position: relative;
+  top: -52px;
+}
+
+.join-fam-select {
+  position: relative;
+  width: 400px;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+.join-fam-input {
+  top: 30px;
+  left: 150px;
+  position: absolute;
+}
+
+.acc-type-select .css-4ljt47-MenuList,
+.join-fam-select .css-4ljt47-MenuList {
+  color: black;
+}
+.join-fam-select .css-2b097c-container {
+  margin-bottom: 10px;
+}
+.acc-type-select .css-1uccc91-singleValue,
+.join-fam-select .css-1uccc91-singleValue {
+  font-weight: bold;
+}
+
+.acc-type-select .css-26l3qy-menu {
+  top: -490%;
+}
+
+.curr-fake-input,
+.acc-fake-input {
+  position: relative;
+  top: 40px;
+}

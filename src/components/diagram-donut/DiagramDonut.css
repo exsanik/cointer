@@ -1,0 +1,44 @@
+.picker-wrapper .react-daterange-picker__wrapper {
+  border: 2.5px solid #5907d3;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.picker-wrapper {
+  margin-bottom: 20px;
+  margin-right: 250px;
+}
+
+.diagram-wrapper {
+  margin: 20px;
+}
+
+.statistic-name {
+  text-align: center;
+  margin-right: 250px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.donner-wrapper {
+  position: relative;
+}
+
+.inner-donut {
+  position: absolute;
+  z-index: 333;
+  right: 48.2%;
+  top: 20%;
+}
+.stat-legend-item text {
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.stat-innertext-value {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.stat-innertext-label {
+  font-weight: bold;
+}

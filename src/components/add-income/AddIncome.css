@@ -1,0 +1,29 @@
+.add-income-inp {
+  color: white;
+  width: 400px;
+}
+
+.add-income-inp:focus ~ .add-income-lab {
+  color: white;
+}
+.add-income-inp:focus {
+  border-image: linear-gradient(to right, white, white);
+  border-image-slice: 1;
+}
+
+.add-income-lab {
+  color: white;
+  width: 200px;
+}
+
+.add-income-fil {
+  width: 200px;
+}
+
+.add-income-inp:placeholder-shown ~ .add-income-lab {
+  font-size: 1.15rem;
+}
+
+.add-income-input {
+  margin-top: -15px;
+}

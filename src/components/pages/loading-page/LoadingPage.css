@@ -1,0 +1,17 @@
+.loader-bg {
+  height: 100vh;
+  width: 100vw;
+  animation: colorloader infinite 1.5s;
+}
+
+@keyframes colorloader {
+  0% {
+    background: white;
+  }
+  50% {
+    background: rgb(230, 226, 210);
+  }
+  100% {
+    background: white;
+  }
+}

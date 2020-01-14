@@ -1,0 +1,70 @@
+.account-item {
+  height: 90px;
+  margin-bottom: 10px;
+  background: linear-gradient(to left, #9d50bb, #6e48aa);
+  color: white;
+  border-radius: 7px;
+  padding: 14px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.account-item-balance {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.account-item-balance span {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.account-item-desc {
+  text-align: center;
+}
+
+.account-item-name {
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+.account-item-type {
+  color: black;
+  font-weight: 700;
+}
+
+.accont-item-trash i {
+  font-size: 1.3rem;
+  padding-top: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.modal-div {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.modal-buttons {
+  margin-top: 30px;
+}
+
+.modal-buttons button {
+  margin-right: 30px;
+  height: 50px;
+  border-radius: 5px;
+  width: 150px;
+  border: 1.5px solid black;
+  font-weight: bold;
+}
+
+.modal-ok {
+  margin-left: 30px;
+  background-color: coral;
+}
+.modal-cancel {
+  background-color: rgb(194, 178, 220);
+}
+
+.ReactModal__Overlay--after-open {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}

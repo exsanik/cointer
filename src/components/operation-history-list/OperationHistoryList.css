@@ -1,0 +1,26 @@
+.op-history-wrapper {
+  margin: 10px;
+  margin-left: 5%;
+  background: linear-gradient(to top, rgb(228, 212, 255), #ffffff, #ffffff);
+
+  border: #35047f 3px solid;
+  padding: 10px;
+  width: 51%;
+  border-radius: 7px;
+  overflow-y: scroll;
+  font-size: 1.1rem;
+  height: 87.5vh;
+}
+
+.op-history-header {
+  font-size: 1.3rem;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  padding-left: 15px;
+  padding-bottom: 5px;
+  background-color: #5907d3;
+  color: white;
+  border-radius: 5px;
+}

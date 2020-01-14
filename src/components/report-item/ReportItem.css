@@ -1,0 +1,37 @@
+.report-item-wrapper {
+  border-bottom: 1px black solid;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  color: coral;
+}
+
+.report-item-wrapper.isPositive {
+  color: rgb(135, 198, 40);
+}
+
+.report-item-value {
+  width: 160px;
+  padding-left: 4px;
+  color: coral;
+  font-weight: bolder;
+}
+
+.report-item-value.isPositive {
+  padding-left: 0;
+  color: rgb(135, 198, 40);
+}
+
+.report-item-curr {
+  width: 40px;
+}
+
+.report-item-categ {
+  width: 250px;
+}
+
+.report-item-accountName,
+.report-item-name {
+  width: 400px;
+}

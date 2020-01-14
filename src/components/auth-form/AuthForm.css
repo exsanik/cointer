@@ -1,0 +1,119 @@
+.auth-form-pos {
+  background-color: white;
+  border-radius: 20px;
+  width: 30%;
+  padding-top: 2vh;
+  height: 30%;
+}
+.auth-form-parent {
+  margin-top: 2vh;
+}
+.auth-form-parent form {
+  width: 500px;
+  padding-left: 20%;
+}
+.auth-form-parent form input {
+  width: 280px;
+}
+.auth-form-parent form button {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  width: 280px;
+  height: 45px;
+  font-weight: bolder;
+  background-color: #5907d3;
+}
+.auth-form-parent form button:hover {
+  background-color: #620080;
+}
+a:hover {
+  text-decoration: none;
+}
+.auth-form-error {
+  background-color: #fd6d6d;
+  height: 40px;
+  margin-top: -15px;
+  padding-top: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.auth-form-regist {
+  background-color: lightgrey;
+  height: 70px;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #5907d3;
+}
+.auth-form-regist:hover {
+  color: #620080;
+}
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+}
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field::placeholder {
+  color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: text;
+  top: 20px;
+  margin-left: 10px;
+}
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: gray;
+}
+.form__field:focus {
+  padding-bottom: 6px;
+  border-bottom: 2px solid teal;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #5907d3, #620080);
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #5907d3;
+  font-weight: 700;
+}
+
+.form__label:focus {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #5907d3;
+  font-weight: 700;
+}

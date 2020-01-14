@@ -1,0 +1,37 @@
+.op-item-wrapper {
+  border-bottom: 1px black solid;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: coral;
+}
+
+.op-item-wrapper.isPositive {
+  color: rgb(135, 198, 40);
+}
+
+.op-item-value {
+  width: 160px;
+  padding-left: 4px;
+  color: coral;
+  font-weight: bolder;
+}
+
+.op-item-value.isPositive {
+  padding-left: 0;
+  color: rgb(135, 198, 40);
+}
+
+.op-item-curr {
+  width: 50px;
+}
+
+.op-item-categ {
+  text-align: center;
+  width: 350px;
+}
+
+.op-item-date {
+  text-align: center;
+  width: 150px;
+}

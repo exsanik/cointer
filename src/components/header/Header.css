@@ -1,0 +1,126 @@
+.header {
+  width: 100%;
+  height: 72px;
+  border-bottom: rgb(89, 7, 211) groove 4px;
+  background-color: rgb(194, 178, 220);
+}
+
+.header-logo {
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.header-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.header h2 {
+  padding-top: 7px;
+  padding-left: 8px;
+  font-weight: bold;
+  color: black;
+}
+
+.header h2:hover {
+  color: rgb(71, 69, 69);
+}
+
+.header-user {
+  margin: 16px;
+  display: flex;
+  margin-right: 50px;
+}
+
+.header-user a {
+  display: flex;
+}
+
+.header-user a div {
+  margin-right: 20px !important;
+  width: 45px !important;
+  height: 45px !important;
+  margin-top: -9px;
+}
+
+.header-user span {
+  color: black;
+  position: relative;
+  top: 5px;
+  font-weight: bold;
+  margin-right: 7px;
+  font-size: 1.1rem;
+}
+
+.header-user span:hover {
+  color: rgb(71, 69, 69);
+}
+
+.header-user span:before {
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  border-radius: 20px;
+  width: 70%;
+  border-top: 3px solid #5907d3;
+  content: "";
+}
+
+.header-user span:hover::before {
+  left: -10%;
+  width: 120%;
+  transition: 1s ease;
+}
+
+.header-user button {
+  color: rgb(89, 7, 211);
+  font-weight: bold;
+  border: rgb(89, 7, 211) 1.5px solid;
+  padding-top: -5px;
+}
+
+.header-user button:hover {
+  background-color: #5907d3;
+}
+
+.header-user button:active {
+  background-color: #5907d3 !important;
+  border: rgb(89, 7, 211) 1px solid !important;
+}
+
+.header-user button:visited {
+  background-color: #5907d3 !important;
+  border: rgb(89, 7, 211) 1px solid !important;
+}
+
+.header-stat-link a {
+  color: black;
+  display: block;
+  position: relative;
+}
+
+.header-stat-link a:before {
+  position: absolute;
+  border-radius: 20px;
+  top: 120%;
+  left: 15%;
+  width: 70%;
+  border-top: 3px solid #5907d3;
+  content: "";
+}
+
+.header-stat-link a:hover::before {
+  left: -10%;
+  width: 120%;
+  transition: 1s ease;
+}
+
+.header-stat-link a:hover {
+  color: rgb(71, 69, 69);
+}
+
+.header-stat-link {
+  font-weight: bold;
+  margin-top: 16px;
+  font-size: 1.2rem;
+}

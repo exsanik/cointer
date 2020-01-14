@@ -1,0 +1,36 @@
+.report-list-wrapper {
+  margin: 10px;
+  background: linear-gradient(to top, rgb(228, 212, 255), #ffffff, #ffffff);
+
+  border: #35047f 3px solid;
+  padding: 10px;
+  width: 90%;
+  border-radius: 7px;
+  min-height: 87vh;
+}
+
+.report-list-header {
+  font-size: 1.3rem;
+  font-weight: bold;
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.75);
+  padding-left: 15px;
+  padding-bottom: 5px;
+  background-color: #5907d3;
+  color: white;
+  border-radius: 5px;
+}
+
+.report-list-header span {
+  margin-right: 30px;
+}
+
+.report-list-save {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.report-list-save span {
+  font-size: 1.4rem;
+  color: rgb(135, 198, 40);
+}

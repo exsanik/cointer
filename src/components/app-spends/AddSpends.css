@@ -1,0 +1,92 @@
+.add-spend-dropdown {
+  width: 450px;
+  background-color: #5907d3;
+  height: 320px;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 8px 8px 2px -1px rgba(0, 0, 0, 0.75);
+  margin: 10px;
+}
+.add-spend-inp {
+  width: 300px;
+  color: white;
+}
+.add-spend-lab {
+  color: white;
+  width: 200px;
+}
+.add-spend-inp:focus ~ .add-spend-lab {
+  color: white;
+}
+.add-spend-inp:focus {
+  border-image: linear-gradient(to right, white, white);
+  border-image-slice: 1;
+}
+
+.add-spend-inp-price {
+  color: white;
+  width: 100px;
+}
+
+.add-spend-inp-price:focus ~ .add-spend-lab-price {
+  color: white;
+}
+.add-spend-inp-price:focus {
+  border-image: linear-gradient(to right, white, white);
+  border-image-slice: 1;
+}
+
+.add-spend-lab-price {
+  color: white;
+  width: 100px;
+}
+
+.add-spend-fil-price {
+  width: 200px;
+  margin-left: 100px;
+}
+
+.add-spend-inp:placeholder-shown ~ .add-spend-lab,
+.add-spend-inp-price:placeholder-shown ~ .add-spend-lab-price {
+  font-size: 1.15rem;
+}
+
+.css-1uccc91-singleValue {
+  color: black !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.add-spend-inputs {
+  margin-top: -15px;
+}
+
+.add-spend-dropdown .spend-header {
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.spend-header i {
+  font-size: 2rem;
+}
+
+.spend-header a {
+  color: #f8c83a;
+}
+
+.add-spend-checkbox {
+  margin-top: 20px;
+}
+.add-spend-checkbox div {
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
+.add-spend-checkbox input {
+  margin-top: 4px;
+}
