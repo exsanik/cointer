@@ -1,7 +1,7 @@
 ## link: https://exsacointer.herokuapp.com/
 ## App for home accounting
 
-## Teck stack:
+## Tech stack:
 1. Express.js
 2. PostgreSQL
 3. React + Redux with redux-saga middleware
