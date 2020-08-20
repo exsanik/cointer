@@ -9,7 +9,7 @@
     "@wojtekmaj/react-daterange-picker": "^2.5.0",
     "avataaars": "^1.2.1",
     "axios": "^0.19.0",
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
     "connect-pg-simple": "^6.1.0",
